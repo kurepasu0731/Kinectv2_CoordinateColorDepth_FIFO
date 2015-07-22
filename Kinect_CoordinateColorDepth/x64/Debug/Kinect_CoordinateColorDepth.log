@@ -1,0 +1,20 @@
+﻿2015/07/22 15:48:59 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\PC-4\Desktop\Kinectv2_CoordinateColorDepth_FIFO\Kinect_CoordinateColorDepth\Kinect_CoordinateColorDepth.vcxproj" (Build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "x64\Debug\Kinect_CoordinateColorDepth.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\inc" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\pc-4\desktop\kinectv2_coordinatecolordepth_fifo\kinect_coordinatecolordepth\myKinect.h(172): warning C4267: '引数' : 'size_t' から 'UINT' に変換しました。データが失われているかもしれません。
+     1>c:\users\pc-4\desktop\kinectv2_coordinatecolordepth_fifo\kinect_coordinatecolordepth\myKinect.h(235): warning C4267: '引数' : 'size_t' から 'UINT' に変換しました。データが失われているかもしれません。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\PC-4\Desktop\Kinectv2_CoordinateColorDepth_FIFO\x64\Debug\Kinect_CoordinateColorDepth.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Lib\x64" opencv_videostab249d.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_nonfree249d.lib opencv_objdetect249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_ts249d.lib opencv_video249d.lib Kinect20.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\PC-4\Desktop\Kinectv2_CoordinateColorDepth_FIFO\x64\Debug\Kinect_CoordinateColorDepth.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\PC-4\Desktop\Kinectv2_CoordinateColorDepth_FIFO\x64\Debug\Kinect_CoordinateColorDepth.lib" /MACHINE:X64 x64\Debug\main.obj
+         Kinect_CoordinateColorDepth.vcxproj -> C:\Users\PC-4\Desktop\Kinectv2_CoordinateColorDepth_FIFO\x64\Debug\Kinect_CoordinateColorDepth.exe
+       FinalizeBuildStatus:
+         ファイル "x64\Debug\Kinect_CoordinateColorDepth.unsuccessfulbuild" を削除しています。
+         "x64\Debug\Kinect_CoordinateColorDepth.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\PC-4\Desktop\Kinectv2_CoordinateColorDepth_FIFO\Kinect_CoordinateColorDepth\Kinect_CoordinateColorDepth.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:02.23
