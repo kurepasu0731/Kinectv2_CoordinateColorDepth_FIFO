@@ -13,8 +13,8 @@ int main(int argc, char *argv[]){
 	kinect::init();
 	int c;
 
-//	cout << "8•bŒã‚©‚çŠJn‚µ‚Ü‚·..." << endl;
-//	Sleep(5000);
+	//cout << "10•bŒã‚©‚çŠJn‚µ‚Ü‚·..." << endl;
+	//Sleep(10000);
 
 	while(true){
 		kinect::updateColorFrame();
@@ -25,13 +25,13 @@ int main(int argc, char *argv[]){
 
 		kinect::draw();
 
-		//3•b–ˆ‚ÉB‰e
-//		Sleep(3000);
-//		cout << kinect::image_idx << "–‡–Ú" << endl;
-// 		kinect::saveColor();
-//		kinect::saveDepth_PNG();
+		//10•b–ˆ‚ÉB‰e
+		//Sleep(10000);
+		//cout << kinect::image_idx << "–‡–Ú" << endl;
+ 	//	kinect::saveColor();
+		//kinect::saveDepth_PNG();
 
-//		kinect::image_idx++;
+		//kinect::image_idx++;
 
 
 		c = waitKey(30);
@@ -43,6 +43,8 @@ int main(int argc, char *argv[]){
 			kinect::saveDepth_PNG();
 
 			kinect::image_idx++;
+
+			cout << kinect::image_idx << endl;
 
 		}
 

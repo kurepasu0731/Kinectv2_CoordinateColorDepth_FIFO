@@ -62,7 +62,7 @@ namespace kinect{
 	std::string depthWinName = "depth window";
 	std::string aveDepthWinName = "average depth window";
 
-	int image_idx = 0;
+	int image_idx = 8;
 	std::string outdir = "./capture";
 
 	void init();
@@ -213,14 +213,20 @@ void saveDepth_JPG()
 void saveDepth_PNG()
 {
 	std::ostringstream s;
-	string filename;
+	string filename, filename_raw;
 
 	s.fill('0');
 	s << std::right << std::setw(4) << image_idx;
 	filename = s.str() + "-d1.png";
+	filename_raw = s.str() + "-rd1.png";
 
-	//cv::imwrite(outdir + "/" + filename, rawBuffer);
+	cv::imwrite(outdir + "/" + filename_raw, rawBuffer);
 	cv::imwrite(outdir + "/" + filename, aveDepth);
+
+	Mat raw(depthHeight, depthWidth, CV_16UC1, (unsigned short*)&depthBuffer[0]);
+	Mat ave(depthHeight, depthWidth, CV_16UC1, aveDepthData);
+
+	cout << "saved." << endl;
 
 }
 
